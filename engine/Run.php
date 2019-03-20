@@ -7,6 +7,8 @@ class Run
 {
     private $di;
 
+    public $db;
+
     /**
      * Run constructor.
      * @param $di
@@ -21,7 +23,7 @@ class Run
      */
     public function run()
     {
-        echo 'App is RUN()';
-        return $this->di;
+        //echo 'Hello';
+        print_r($this->di);
     }
 }

@@ -38,6 +38,7 @@ class DI{
     // Проверяем есть ли ключ
     public function has($key)
     {
-        return isset($this->container[$key]);
+        // Тернарный оператор, сокращенный вариант
+        return isset($this->container[$key]) ? $this->container[$key] : null;
     }
 }
