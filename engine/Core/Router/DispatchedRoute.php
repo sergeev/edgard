@@ -20,6 +20,14 @@ class DispatchedRoute
     }
 
     /**
+     * @return array
+     */
+    public function getController(): array
+    {
+        return $this->controller;
+    }
+
+    /**
      * @return mixed
      */
     public function getParameters()

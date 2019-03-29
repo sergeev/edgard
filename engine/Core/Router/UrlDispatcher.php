@@ -78,6 +78,7 @@ class UrlDispatcher
     /**
      * @param $method
      * @param $url
+     * @return DispatchedRoute
      */
     private function doDispatch($method, $url)
     {

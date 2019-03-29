@@ -32,7 +32,7 @@ class Connection
             'host'      => '127.0.0.1', // При localhost выдаст ошибку Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory используем пока что 127.0.0.1 ;)
             'db_name'   => 'edgard',
             'username'  => 'root',
-            'password'  => '_',
+            'password'  => '10184902125410',
             'charset'   => 'utf8'
 
         ];
